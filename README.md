@@ -11,6 +11,8 @@
       more.
   - you can view their codes in the repository.
   
+  
+  
 ### *What are Stack constructors?*
 ![image](https://user-images.githubusercontent.com/116419708/225889107-b94c7436-19e3-4afe-9dc3-2f5826468d2a.png)
   - sets values for the instance of Stack class being created
@@ -19,13 +21,19 @@
     - the other constructor that is included (which is also overloaded) creates a Stack with a defined size given by the argument passed, sets length to 0 and isEmpty
       to true.
       
+      
+      
 ### *Is it required to make seperate files for the classes?*
 ![image](https://user-images.githubusercontent.com/116419708/225889325-3057d597-b1ee-41ff-aa73-2502a2fd31ba.png)
   - nope, you can put in the Stack object into the same file as your main(). i just do not prefer doing it that way.
       
+      
+      
 ### *What is transform()?*
 ![image](https://user-images.githubusercontent.com/116419708/225888864-7b35b03f-6239-48a1-b409-341896b7aec5.png)
-  - a function in <algorithm> that I used to lowercase all characters in the input, c++ does not have a built-in method for that, unfortunately.
+  - a function in \<algorithm\> that I used to lowercase all characters in the input, c++ does not have a built-in method for that, unfortunately.
+
+
 
 ### *What is the algorithm?*
 ![image](https://user-images.githubusercontent.com/116419708/225889459-7f4af727-0399-446c-b7dc-d3aba61ec198.png)
@@ -34,3 +42,6 @@
     - since pop() takes values from the top of the Stack, reversed_word is in, well, reverse
   - outputs result based on the comparison of whether input_word is equal to reversed_word
     - palindromes are equal to themselves when reversed
+
+
+- L
